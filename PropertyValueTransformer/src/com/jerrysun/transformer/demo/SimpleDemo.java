@@ -2,7 +2,7 @@ package com.jerrysun.transformer.demo;
 
 import com.jerrysun.transformer.core.TransformerEngine;
 
-public class SimpleDemo1 {
+public class SimpleDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

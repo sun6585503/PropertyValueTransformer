@@ -13,16 +13,19 @@
 		</PropertyMapping>
 	</MappingElement>
 	
-	<MappingElement name="DeviceLoopbackValueMapping2">
-		<PropertyMapping SourceKey="enableValue" TargetKey="ENABLE">
-			<ValueMapping SourceValue="1" TargetValue="1"></ValueMapping>
-			<ValueMapping SourceValue="2" TargetValue="3"></ValueMapping>
-			<ValueMapping SourceValue="3" TargetValue="5"></ValueMapping>
-		</PropertyMapping>
-		<PropertyMapping SourceKey="loopbackType" TargetKey="LOOPBACK">
-			<ValueMapping SourceValue="1" TargetValue="0"></ValueMapping>
+	<MappingElement name="ObjectValueTransformValueMapping4MAC">
+		<PropertyMapping SourceKey="command" TargetKey="command">
+			<ValueMapping SourceValue="1" TargetValue="2"></ValueMapping>
 			<ValueMapping SourceValue="2" TargetValue="1"></ValueMapping>
-			<ValueMapping SourceValue="3" TargetValue="2"></ValueMapping>
+			<ValueMapping SourceValue="3" TargetValue="3"></ValueMapping>
+		</PropertyMapping>
+	</MappingElement>
+	
+	<MappingElement name="ObjectValueTransformValueMapping4WIN">
+		<PropertyMapping SourceKey="command" TargetKey="command">
+			<ValueMapping SourceValue="1" TargetValue="3"></ValueMapping>
+			<ValueMapping SourceValue="2" TargetValue="2"></ValueMapping>
+			<ValueMapping SourceValue="3" TargetValue="1"></ValueMapping>
 		</PropertyMapping>
 	</MappingElement>
 </Mapping>
